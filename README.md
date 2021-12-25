@@ -36,11 +36,298 @@ Publish the website in the given URL.
 
 ## PROGRAM :
 
-## OUTPUT:
 
-### Home Page:
+### Homepage:
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GAME ZONE</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
+  </head>
 
-![output](./images/homepage.jpg)
+  <body>
+    <div class="container">
+      <div class="banner">GAME ZONE PVT LIMITED</div>
+      <div class="menu">
+        <div class="menuitemselected"><a href="/static\home.html">Home</a></div>
+        <div class="menuitem"><a href="/static\products.html">Products</a></div>
+        <div class="menuitem"><a href="/static\people.html">People</a></div>
+        <div class="menuitem"><a href="/static/contactus.html">Contact Us</a></div>
+      </div>
+      <div class="content">
+        <div class="homecontent">
+          <h1>About Us</h1>
+          <img src="./img/gamebuilding.png" alt="Building" />
+          <div class="contenttext">
+            In a MUD or MMO, zone and area are terms used to refer to one of the parts of the shared virtual environment.
+They should not be confused with levels (where a player proceeds through a series of stages in a linear or semi-linear manner).
+ Areas may vary in the challenge they present to visiting players, but are typically accessible by characters irrespective of 
+ the character's advancement within the game. Where 'levels' are sections of a game, 'areas' are special sections of a virtual 
+ environment in which there may or may not be a game at all.
+The environments of MUDs and MMOs may be seamlessly sewn together, in which case it may be difficult or impossible for
+ the player to know the precise boundaries of a particular area, or they may be connected by connector zones
+  (such as the classic sight-line blocking z-shaped corridor) or portals. In some games it is possible to note changes
+   in area through different flora and fauna, altered livery of guards, or special skills.
+Many MUDs are hybrids, containing sections which are seamlessly stitched together alongside other areas which are only 
+accessible via portals, etc. In MUDs, and other games where characters transiting zones is a trivial server task, connector
+ zones frequently areas in their own right.
+Zones are useful for game developers, because they enable the developer to create and modify the game in parts, and online games,
+ such as MUDs can focus their server resources on areas which are populated.
+            <ul>
+              <li>Increases A Child's Memory Capacity.</li>
+              <li>Computer & Simulation Fluency</li>
+              <li>Helps With Fast Strategic Thinking & Problem-Solving.</li>
+              <li>Skill-Building</li>
+              <li>24/7 SERVICE SUPPORT available</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        Copyright &#169; 2021 GAME ZONE PVT LIMITED, FOUNDER:P.Sandeep
+      </div>
+    </div>
+  </body>
+</html>
+```
+### Products:
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GAME ZONE</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="banner">GAME ZONE PVT LIMITED</div>
+      <div class="menu">
+        <div class="menuitem"><a href="/static/home.html">Home</a></div>
+        <div class="menuitemselected"><a href="/static/products.html">Products</a></div>
+        <div class="menuitem"><a href="/static/people.html">People</a></div>
+        <div class="menuitem"><a href="/static/contactus.html">Contact Us</a></div>
+      </div>
+      <div class="content">
+        <div class="productcontent">    
+          <h1>Our Premium Products</h1>
+          <div class="productitems">
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/companywebsite/static/img/GTA1.png" alt="product image">
+                  </div>
+                  <div class="itemname">GTA VICE CITY 1</div>
+                  <div class="itemprice">Price: Rs.500.00 </div>
+              </div>
+              <div class="productitem"> 
+                  <div class="itemimage">
+                  <img src="/companywebsite/static/img/GTA2.png"  alt="product image">
+                  </div>
+                  <div class="itemname">GTA VICE CITY 2</div>
+                  <div class="itemprice">Price: Rs.1000.00 </div>
+              </div>
+              <div class="productitem"> 
+                <div class="itemimage">
+                <img src="/companywebsite/static/img/GTA3.png"  alt="product image">
+                </div>
+                <div class="itemname">GTA VICE CITY 3</div>
+                <div class="itemprice">Price: Rs1500.00 </div>
+          </div>
+          <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/companywebsite/static/img/GTA4.png"  alt="product image">
+            </div>
+            <div class="itemname">GTA VICE CITY 4</div>
+            <div class="itemprice">Price: Rs.2000.00 </div>
+          </div>  
+          <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/companywebsite/static/img/GTA5.png"  alt="product image">
+            </div>
+            <div class="itemname">GTA VICE CITY 5</div>
+            <div class="itemprice">Price: Rs.2500.00 </div>      
+      </div>
+      <div class="productitem"> 
+        <div class="itemimage">
+        <img src="/companywebsite/static/img/GTAS.png"  alt="product image">
+        </div>
+        <div class="itemname">GTA SANANDRES</div>
+        <div class="itemprice">Price: Rs.3000.00 </div>
+        </div>
+        <div class="productitem"> 
+          <div class="itemimage">
+          <img src="/companywebsite/static/img/PUBG.png"  alt="product image">
+          </div>
+          <div class="itemname">PLAYERS UNKNOWN BATLE GROUND</div>
+          <div class="itemprice">Price: Rs.3500.00 </div>
+          </div>
+          <div class="productitem"> 
+            <div class="itemimage">
+            <img src="/companywebsite/static/img/SpiderMan.png"  alt="product image">
+            </div>
+            <div class="itemname">SPIDER MAN</div>
+            <div class="itemprice">Price: Rs.4000.00 </div>
+            </div>
+            <div class="productitem"> 
+              <div class="itemimage">
+              <img src="/companywebsite/static/img/SpiderMan2.png"  alt="product image">
+              </div>
+              <div class="itemname">SPIDER MAN 2</div>
+              <div class="itemprice">Price: Rs.4500.00 </div>
+              </div>
+              <div class="productitem"> 
+                <div class="itemimage">
+                <img src="/companywebsite/static/img/Uncharted.png"  alt="product image">
+                </div>
+                <div class="itemname">UNCHARTED CHAPTER 1</div>
+                <div class="itemprice">Price: Rs.5000.00 </div>
+                </div>
+                  <div class="productitem"> 
+                    <div class="itemimage">
+                    <img src="/companywebsite/static/img/Uncharted2.png"  alt="product image">
+                    </div>
+                    <div class="itemname">UNCHARTED CHAPTER 2</div>
+                    <div class="itemprice">Price: Rs.5500.00 </div>
+                    </div>
+                    <div class="productitem"> 
+                      <div class="itemimage">
+                      <img src="/companywebsite/static/img/Uncharted3.png"  alt="product image">
+                      </div>
+                      <div class="itemname">UNCHARTED CHAPTER 3</div>
+                      <div class="itemprice">Price: Rs.6000.00 </div>
+                      </div>
+      <div class="footer">
+        Copyright &#169; 2021 GAME ZONE PVT LIMITED, FOUNDER: P.Sandeep
+      </div>
+    </div>
+  </body>
+</html>
+```
+### People:
+```
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GAME ZONE</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="banner">GAME ZONE PVT LIMITED</div>
+      <div class="menu">
+        <div class="menuitem"><a href="/static/home.html">Home</a></div>
+        <div class="menuitem"><a href="/static/products.html">Products</a></div>
+        <div class="menuitemselected"><a href="/static/people.html">People</a></div>
+        <div class="menuitem"><a href="/static/contactus.html">Contact Us</a></div>
+      </div>
+      <div class="content">
+        <div class="productcontent">    
+            <h2>MAJOR PROMOTERS OF OUR SOFTWARES:</h2>
+            <div class="productitems">
+                <div class="productitem"> 
+                    <div class="itemimage">
+                    <img src="/companywebsite/static/img/professor.png" alt="product image">
+                    </div>
+                    <div class="itemname">ALVERO MORTE</div>
+                    <div class="itemprice">CHAIRMAN</div>
+                </div>
+                <div class="productitem"> 
+                    <div class="itemimage">
+                    <img src="/companywebsite/static/img/berlin.png"  alt="product image">
+                    </div>
+                    <div class="itemname">PEDRO ALONSO</div>
+                    <div class="itemprice">PRESIDENT</div>
+                </div>
+                <div class="productitem"> 
+                    <div class="itemimage">
+                    <img src="/companywebsite/static/img/rangor.png"  alt="product image">
+                    </div>
+                    <div class="itemname">TRAVIS FINNEL</div>
+                    <div class="itemprice">CEO</div>
+                </div>
+                <div class="productitem"> 
+                    <div class="itemimage">
+                    <img src="/companywebsite/static/img/amirkhan.png"  alt="product image">
+                    </div>
+                    <div class="itemname">AMIR KHAN</div>
+                    <div class="itemprice">BRAND AMBASSADOR</div>
+                </div>
+                <div class="productitem"> 
+                    <div class="itemimage">
+                    <img src="/companywebsite/static/img/panda.png"  alt="product image">
+                    </div>
+                    <div class="itemname">PANDA YT</div>
+                    <div class="itemprice">YOUTUBE GAMER</div>
+                </div>
+                <div class="productitem"> 
+                    <div class="itemimage">
+                    <img src="/companywebsite/static/img/MBB.png"  alt="product image">
+                    </div>
+                    <div class="itemname">MILLIE BOBBY BROWN</div>
+                    <div class="itemprice">BRAND AMBASSADOR</div>
+                </div>
+
+          </div>
+        </div>
+      </div>
+      <div class="footer">
+        Copyright &#169; 2021 GAME ZONE PVT LIMITED, FOUNDER:P.Sandeep
+      </div>
+    </div>
+  </body>
+</html>
+```
+### Contactus:
+```<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>GAME ZONE PVT LIMITED</title>
+    <link rel="stylesheet" href="./css/layout.css" />
+    <link rel="icon" href="./img/icon.png" type="image/x-icon" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="banner">GAME ZONE PVT LIMITED</div>
+      <div class="menu">
+        <div class="menuitem"><a href="/static/home.html">Home</a></div>
+        <div class="menuitem"><a href="/static/products.html">Products</a></div>
+          <div class="menuitem"><a href="/static/people.html">People</a></div>
+        <div class="menuitemselected"><a href="/static/contactus.html">Contact Us</a></div>
+      </div>
+      <div class="content">
+          <ul>
+              <li>Address: GUNTUR <br></li>
+              <li>Contact:44524378;<br></li>
+              <li>Email Address: sandypasupuleti143@gmail.com<br></li>
+              <br>VERIFIED*
+          </ul>    
+        </div>
+    </div>
+    </div>
+    </div>
+    <div class="footer">
+      Copyright &#169; 2021 GAME ZONE PVT LIMITED, FOUNDER:P.Sandeep
+    </div>
+  </div>
+</body>
+</html>
+```
+
+# Output:
+## homepage:
+![output](./images/homepage.png)
+## Products:
+![output](./images/products.png)
+## People:
+![output](./images/people.png)
+## Contactus:
+![output](./images/contactus.png)
 
 ## Result:
 
